@@ -31,7 +31,7 @@ export default {
     border-radius: 25px;
     padding-top:80px;
     padding-bottom:80px;
-    
+    box-sizing:border-box;
     .professional-experience-wrapper-inner{
     margin:auto;
     max-width:500px;
