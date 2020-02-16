@@ -29,6 +29,12 @@ export default {
         color: #000000;
       }
     }
+    @media screen and (max-width:780px){
+      flex-direction:column-reverse;
+      img{
+        width:100%;
+      }
+    }
   }
 }
 </style>
