@@ -29,7 +29,7 @@
 
 <script>
 export default {
-    name:'AppCard'
+    name:'AppCard',
 }
 </script>
 
@@ -69,7 +69,7 @@ $border-color: #222222;
             
            h2{
                span{
-                   color:#27AE60;
+                   color:$primary-color;
                    display:block;
                    font-size:0.6em;
                }
