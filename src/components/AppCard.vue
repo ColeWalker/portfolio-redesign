@@ -21,7 +21,7 @@
                 <p>
                     I used React Native, Expo, and Redux to build this application.
                 </p>
-                <a href="#">Check out the Source Code</a>
+                <a href="https://github.com/ColeWalker/countdown">Check out the Source Code</a>
         </div>
       </article>
   </div>
