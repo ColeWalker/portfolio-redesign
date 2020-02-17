@@ -18,7 +18,15 @@ function addStyleResource (rule) {
 
 module.exports = {
   siteName: "Cole Walker",
-  plugins: [],
+  siteDescription:"Portfolio website for Cole Walker, a software engineer based out of New Jersey.",
+  plugins: [
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options:{
+        id: 'UA-132544895-1'
+      }
+    }
+  ],
   chainWebpack (config) {
     // Load variables for all vue-files
     const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
