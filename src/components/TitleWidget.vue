@@ -1,7 +1,7 @@
 <template>
   <div class="main-contain">
       <div class="title-wrapper">
-          <h1>Hello, I'm <span>Cole Walker</span></h1>
+          <h1>{{title}}<span v-if="subTitle">{{subTitle}}</span></h1>
           <g-image src="~/images/technologies.png" alt="JavaScript, React, jQuery, Sass" width="400px"/>
       </div>
   </div>
@@ -10,6 +10,11 @@
 <script>
 export default {
   name:'TitleWidget',
+  props:{
+    title: String,
+    subTitle: String,
+    image: String
+  }
 }
 </script>
 

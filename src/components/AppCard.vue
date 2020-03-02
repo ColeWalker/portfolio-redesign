@@ -6,22 +6,11 @@
          <img src="../images/countdown.jpg" alt="Code"/>
         </div>
         <div class="content-wrapper">
-                <h2><span>Mobile App</span>Countdown Timer</h2>
-                <p>
-                    An excellent venture into React Native. 
-                    I actually designed this first, without any intention of programming it, but 
-                    I received some requests to make it a real thing, so I did so. 
-                    The goal of this application was to create a stylish way of seeing how much 
-                    time there was until a certain date. I also wanted the user to be able 
-                    to customize the interface to their heart's content, so there is 
-                    a rich settings page with loads of goodies, 
-                    including a gradient background picker, 
-                    image background picker, and text color option. 
-                </p>
-                <p>
-                    I used React Native, Expo, and Redux to build this application.
-                </p>
-                <a href="https://github.com/ColeWalker/countdown">Check out the Source Code</a>
+                <h2><span>{{type}}</span>{{appTitle}}</h2>
+                <slot name="content-block">
+                
+                </slot>
+                <a href="">{{sourceCodeLinkText}}</a>
         </div>
       </article>
   </div>
@@ -30,6 +19,12 @@
 <script>
 export default {
     name:'AppCard',
+    props:{
+        sourceCodeLinkText: String,
+        sourceCodeLinkURL: String,
+        type: String,
+        appTitle: String,
+    }
 }
 </script>
 
