@@ -6,6 +6,9 @@
             <p>
                I'm a Software Engineer based out of New Jersey. I currently work as a Front-End Developer for Hudson Integrated. I'm expecting to graduate from William Paterson University with a Bachelor of Science in Computer Science in May, 2020. I'm skilled in both front-end and back-end development, I have extensive experience with Node.js, React, jQuery, SCSS, and web accessibility. 
             </p>
+            <p>
+                I'm looking for roles which will allow me to interact with both ends of the tech stack, and have me frequently interacting with the logical side of things - I love flowcharts. 
+            </p>
             <footer>
                 <img src="../images/technologyrow.png" alt="jQuery, Node.js, React, SCSS" />
             </footer>
