@@ -1,28 +1,20 @@
 <template>
 <article class="case-study-wrapper">
     <header class="main-contain">
-        <h2><span>Website</span>Cole.blog</h2>
+        <h2><span>{{type}}</span>{{caseStudyTitle}}</h2>
     </header>
     <div class="image-wrapper">
         <g-image class="case-study-image" src="~/images/aboutme.jpg" alt="Cole.blog" width="1920" />
     </div>
     <section class="main-contain">
         <div class="description">
-            <p>
-                My first ever tech blog. For this project, I used React with the Gatsby static site generator
-                 to automatically generate posts when supplied with markdown files.
-                 This simple setup easily allows CMS implementation, making it highly scalable. 
-            </p>
-            <a href="https://github.com/ColeWalker/ColeBlogMe" class="btn-main" >View Source</a>
+            <slot name="left-panel">
+            
+            </slot>
         </div>
          <div class="tech-stack">
-            <h3>Tech Stack</h3>
-            <ul>
-                <li>React</li>
-                <li>Gatsby</li>
-                <li>Git</li>
-            </ul>
-            <a href="https://romantic-boyd-a91d0a.netlify.com/" class="btn-secondary">Live Site</a>
+           <slot name="right-panel">
+            </slot>
         </div>
     </section>
 </article>
@@ -30,7 +22,11 @@
 
 <script>
 export default {
-    name:"CaseStudy"
+    name:"CaseStudy",
+    props:{
+        type: String,
+        caseStudyTitle:String,
+    }
 }
 </script>
 

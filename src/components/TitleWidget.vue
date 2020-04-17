@@ -10,6 +10,11 @@
 <script>
 export default {
   name:'TitleWidget',
+  props:{
+    title: String,
+    subTitle: String,
+    image: String
+  }
 }
 </script>
 
@@ -29,7 +34,11 @@ export default {
         color: #000000;
       }
     }
+<<<<<<< HEAD
     @media screen and (max-width:780px){
+=======
+    @media screen and (max-width: 780px){
+>>>>>>> a72f643ca6c1c1738bce1522dba82ff90f8ee2ea
       flex-direction:column-reverse;
       img{
         width:100%;
