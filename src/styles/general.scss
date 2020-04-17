@@ -27,6 +27,10 @@ h3{
 a{
     color: #27AE60;
     text-decoration: none;
+    &:hover{
+        color: #237646;
+        text-decoration:underline;
+    }
 }
 body{
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -48,6 +52,8 @@ body{
     &:hover{
         transition:0.3s;
         background-color: $primary-color-d-1;
+        color: #ffffff;
+        text-decoration:none;
     }
 }
 

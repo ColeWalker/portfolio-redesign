@@ -4,7 +4,7 @@
         <h2><span>Website</span>Cole.blog</h2>
     </header>
     <div class="image-wrapper">
-        <img src="../images/aboutme.jpg" alt="Cole.blog">
+        <g-image class="case-study-image" src="~/images/aboutme.jpg" alt="Cole.blog" width="1920" />
     </div>
     <section class="main-contain">
         <div class="description">
@@ -52,7 +52,7 @@ export default {
     }
     .image-wrapper{
         width:100%;
-        img{
+        .case-study-image{
             width:100%;
             max-height:600px;
             object-fit: cover;

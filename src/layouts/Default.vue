@@ -1,6 +1,10 @@
 <template>
+ 
   <div>
-   <slot />
+   <SiteHeader />
+   <div id="main-body">
+      <slot />
+    </div>
   </div>
 </template>
 
@@ -12,16 +16,16 @@ query {
 }
 </static-query>
 <script>
+import SiteHeader from '~/components/SiteHeader'
 export default {
-  
   components:{
-    
+    SiteHeader
   }
 }
 </script>
 
 
-<style>
+<style lang="scss">
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   margin:0;
