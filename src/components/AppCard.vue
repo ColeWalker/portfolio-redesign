@@ -10,7 +10,7 @@
                 <slot name="content-block">
                 
                 </slot>
-                <a href="">{{sourceCodeLinkText}}</a>
+                <a v-bind:href="sourceCodeLinkURL">{{sourceCodeLinkText}}</a>
         </div>
       </article>
   </div>
