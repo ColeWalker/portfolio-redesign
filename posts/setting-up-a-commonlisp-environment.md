@@ -1,5 +1,7 @@
 ---
 excerpt: In the mid 1900’s, the second high-level programming language was created by John McCarthy. It was called List Processor, or LISP for short. LISP itself is a relatively simple language, so it has been modified and added to over time. Modified versions of the language are referred to as “dialects”, and today the most well-known dialects are Clojure, Scheme, and CommonLISP. 
+publishDate: "4/17/2020"
+isLive: true
 ---
 # Setting Up a CommonLISP Environment
 

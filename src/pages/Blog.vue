@@ -34,6 +34,8 @@ components:{
     }
     li{
       margin-bottom:75px;
+      padding-left:25px;
+      padding-right:25px;
     }
   }
 </style>
@@ -46,6 +48,8 @@ query {
 				path
         title
         excerpt
+        isLive
+        publishDate
       }
     }
   }

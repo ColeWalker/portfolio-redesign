@@ -1,6 +1,6 @@
 <template>
-    <article class="post-information-wrapper">
-        <h2>{{post.title}}</h2>
+    <article v-if="post.isLive" class="post-information-wrapper">
+        <g-link v-bind:to="post.path"><h2>{{post.title}}</h2></g-link>
         <p v-if="post.excerpt.length && post.excerpt.length">{{post.excerpt}}</p>
         <g-link v-bind:to="post.path">Go there!</g-link>
     </article>

@@ -1,5 +1,6 @@
 ---
 excerpt: For the past few weeks, I've coded every night on twitch for at least a few hours. It has been a lot of fun, and I've learned a lot about streaming, and branding myself in general.
+isLive: true
 ---
 # What I've Learned From Streaming Myself Coding
 For the past few weeks, I've coded every night on [twitch](https://www.twitch.tv/sigmablade123) for at least a few hours. It has been a lot of fun, and I've learned a lot about streaming, and branding myself in general.
