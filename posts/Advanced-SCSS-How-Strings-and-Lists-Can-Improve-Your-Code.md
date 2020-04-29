@@ -3,6 +3,7 @@ excerpt: SASS is one of the most popular CSS preprocessors, and chances are, you
 isLive: true
 ---
 
+# Advanced SCSS: How Strings and Lists Can Improve Your Code
 SASS is one of the most popular CSS preprocessors, and chances are, you’ve either already interacted with it in some capacity, or will at some point in your career. As a preprocessor, SASS allows us to write CSS more easily, with added functions such as nesting queries or the & selector. However, SASS doesn’t just allow us to write prettier CSS, but also adds some much needed programming features to the styling language. 
 
 In this article, I will be discussing some of the code I’ve written to make my SCSS more readable and reusable through the use of lists and the @each function. (The examples are using SCSS, but the principles are the same in SASS formatting!) 

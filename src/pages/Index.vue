@@ -7,27 +7,30 @@
    
     <AboutMe />
     <CaseStudy 
-      type="Website"
-      caseStudyTitle="Cole.blog"
+      type="Web Application"
+      caseStudyTitle="Random Episode Picker"
     >
       <template v-slot:left-panel>
         <p>
-            My first ever tech blog. For this project, I used React with the Gatsby static site generator
-            to automatically generate posts when supplied with markdown files.
-            This simple setup easily allows CMS implementation, making it highly scalable. 
+            A web app which picks an episode of a tv show for you. It connects to the Open Movie Database API using an express proxy server, (so I don't share my API credentials with the world)
+            and returns some information about the episode chosen. I used AngularJS for this project, and streamed the entire coding process on my twitch channel. I built
+            it because I always know what show I want to watch, but hate choosing the episode. 
         </p>
-        <a href="https://github.com/ColeWalker/ColeBlogMe" class="btn-main" >View Source</a>
+        <a href="https://github.com/ColeWalker/random-episode-picker" class="btn-main" >View Source</a>
       </template>
       <template v-slot:right-panel>
        <h3>Tech Stack</h3>
         <ul>
-            <li>React</li>
-            <li>Gatsby</li>
+            <li>AngularJS</li>
+            <li>Typescript</li>
+            <li>Express</li>
+            <li>Node.js</li>
             <li>Git</li>
         </ul>
-        <a href="https://romantic-boyd-a91d0a.netlify.com/" class="btn-secondary">Live Site</a>
+        <a href="https://agitated-benz-0a03e5.netlify.app/" class="btn-secondary">Live Site</a>
       </template>
     </CaseStudy>
+   
     <AppCard 
       sourceCodeLinkURL="https://github.com/ColeWalker/countdown"
       sourceCodeLinkText="Check out the Source Code"
@@ -51,28 +54,26 @@
         </p>
       </template>
     </AppCard>
-    <CaseStudy 
-      type="Web Application"
-      caseStudyTitle="Random Episode Picker"
+     <CaseStudy 
+      type="Website"
+      caseStudyTitle="Cole.blog"
     >
       <template v-slot:left-panel>
         <p>
-            A web app which picks an episode of a tv show for you. It connects to the Open Movie Database API using an express proxy server, (so I don't share my API credentials with the world)
-            and returns some information about the episode chosen. I used AngularJS for this project, and streamed the entire coding process on my twitch channel. I built
-            it because I always know what show I want to watch, but hate choosing the episode. 
+            My first ever tech blog. For this project, I used React with the Gatsby static site generator
+            to automatically generate posts when supplied with markdown files.
+            This simple setup easily allows CMS implementation, making it highly scalable. 
         </p>
-        <a href="https://github.com/ColeWalker/random-episode-picker" class="btn-main" >View Source</a>
+        <a href="https://github.com/ColeWalker/ColeBlogMe" class="btn-main" >View Source</a>
       </template>
       <template v-slot:right-panel>
        <h3>Tech Stack</h3>
         <ul>
-            <li>AngularJS</li>
-            <li>Typescript</li>
-            <li>Express</li>
-            <li>Node.js</li>
+            <li>React</li>
+            <li>Gatsby</li>
             <li>Git</li>
         </ul>
-        <a href="https://agitated-benz-0a03e5.netlify.app/" class="btn-secondary">Live Site</a>
+        <a href="https://romantic-boyd-a91d0a.netlify.com/" class="btn-secondary">Live Site</a>
       </template>
     </CaseStudy>
     <HireMe />

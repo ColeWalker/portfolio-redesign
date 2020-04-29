@@ -2,7 +2,7 @@
 excerpt: I have been in the software industry for almost a year now, and when I was first searching for jobs, I was overwhelmed and wished that someone who was relatable to me would share their tips and tricks for getting the first role.
 isLive: true
 ---
-
+# Tips for finding your first internship
 I have been in the software industry for almost a year now, and when I was first searching for jobs, I was overwhelmed and wished that someone who was relatable to me would share their tips and tricks for getting the first role.
 
 I think it's important that you understand my background at the time, so that you can see what I had to work with. 
