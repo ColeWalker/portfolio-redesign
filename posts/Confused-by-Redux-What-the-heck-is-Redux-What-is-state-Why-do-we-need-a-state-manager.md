@@ -1,3 +1,8 @@
+---
+excerpt: Redux is one of the most difficult concepts to grasp as a newcomer to front-end frameworks, and it took me a long time to understand how it worked and how to use it. I didn't truly *get* it until I had a need for it. 
+isLive: true
+---
+
 Redux is one of the most difficult concepts to grasp as a newcomer to front-end frameworks, and it took me a long time to understand how it worked and how to use it. I didn't truly *get* it until I had a need for it. 
 
 In this article I aim to educate you about some of the concepts of Redux, including why we need it, what state is, and a high-level example of what we would use Redux for. 

@@ -1,3 +1,9 @@
+---
+excerpt: Today I found out that Firefox, my browser of choice, has some great features for web developers who love to tinker with the styles of things. As it turns out, not only can you edit the styles of the web browser window itself, but even use the familiar element inspector on it to help you do so. The best thing about this is that it isn’t only great for advanced web developers, but also people who want to practice their CSS skills on the thing they’ll probably be staring at more than anything else.
+isLive: true
+---
+
+
 Today I found out that Firefox, my browser of choice, has some great features for web developers who love to tinker with the styles of things. As it turns out, not only can you edit the styles of the web browser window itself, but even use the familiar element inspector on it to help you do so. The best thing about this is that it isn’t only great for advanced web developers, but also people who want to practice their CSS skills on the thing they’ll probably be staring at more than anything else.
 
 

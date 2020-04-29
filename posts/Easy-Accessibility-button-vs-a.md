@@ -1,3 +1,8 @@
+---
+excerpt: A lot of times, front-end developers will use < a > and < button > interchangeably. The truth is, this is completely wrong! Using the correct tag is very important for a11y, since the expected functionality is incredibly different between the two, and screen readers will give different hints to users based on the type of tag. Additionally, I find that using proper semantic HTML makes your code much easier to read as well!
+isLive: true
+---
+
 <p>Hello, I'm back with another quick accessibility tip! This time, it's a bit of HTML semantics.</p>
 
 <p>A lot of times, front-end developers will use < a > and < button > interchangeably. The truth is, this is completely wrong! Using the correct tag is very important for a11y, since the expected functionality is incredibly different between the two, and screen readers will give different hints to users based on the type of tag. Additionally, I find that using proper semantic HTML makes your code much easier to read as well!</p>

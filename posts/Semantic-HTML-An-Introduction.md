@@ -1,3 +1,8 @@
+---
+excerpt: Being able to write semantic HTML properly is one of the most important parts of being a great web developer. In this article, I aim to inform you, the reader, what semantic HTML is, and why you should use it, by providing some examples of what it looks like, and what it does! I will not be covering semantic elements individually, but I plan to write a series of posts in the future detailing how each one can make your website better. 
+isLive: true
+---
+
 Being able to write semantic HTML properly is one of the most important parts of being a great web developer. In this article, I aim to inform you, the reader, what semantic HTML is, and why you should use it, by providing some examples of what it looks like, and what it does! I will not be covering semantic elements individually, but I plan to write a series of posts in the future detailing how each one can make your website better. 
 
 <h2>What is semantic HTML?</h2>

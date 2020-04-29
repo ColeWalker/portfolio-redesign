@@ -3,7 +3,7 @@ excerpt: For the past few weeks, I've coded every night on twitch for at least a
 isLive: true
 ---
 # What I've Learned From Streaming Myself Coding
-For the past few weeks, I've coded every night on [twitch](https://www.twitch.tv/sigmablade123) for at least a few hours. It has been a lot of fun, and I've learned a lot about streaming, and branding myself in general.
+For the past few weeks, I've coded every night on [twitch](https://www.twitch.tv/supcole) for at least a few hours. It has been a lot of fun, and I've learned a lot about streaming, and branding myself in general.
 
 # Viewers are mostly there to hang out, don't sweat your coding skills
 
@@ -41,4 +41,4 @@ Streaming is a ton of fun. If you have the means to, I'd recommend giving it a s
 
 Also, I'd be remiss if I didn't plug my stream in this article, I hope that you give me a watch sometime, I do a lot of JavaScript streaming, either mid-morning (11AM EST), or more often, at night (7PM EST). 
 
-https://www.twitch.tv/sigmablade123 
+https://www.twitch.tv/supcole 

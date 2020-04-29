@@ -33,6 +33,7 @@ export default {
     display:flex;
     flex-direction:row;
     justify-content: space-between;
+    margin-top:100px;
     margin-bottom:100px;
     h3, h2{
         margin-top:0;

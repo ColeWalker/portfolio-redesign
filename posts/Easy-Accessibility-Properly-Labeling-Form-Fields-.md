@@ -1,3 +1,8 @@
+---
+excerpt: One of the most common accessibility tripping points that web developers seem to face is the ever-dreaded form. Forms have a lot of specific accessibility rules that can confuse developers, especially when it comes to making these relatively strict elements look pretty. 
+isLive: true
+---
+
 One of the most common accessibility tripping points that web developers seem to face is the ever-dreaded form. Forms have a lot of specific accessibility rules that can confuse developers, especially when it comes to making these relatively strict elements look pretty. 
 
 One thing that's easy to fix, yet I unfortunately see rather often, is the misuse or altogether absence of labels and IDs.

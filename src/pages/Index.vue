@@ -51,6 +51,30 @@
         </p>
       </template>
     </AppCard>
+    <CaseStudy 
+      type="Web Application"
+      caseStudyTitle="Random Episode Picker"
+    >
+      <template v-slot:left-panel>
+        <p>
+            A web app which picks an episode of a tv show for you. It connects to the Open Movie Database API using an express proxy server, (so I don't share my API credentials with the world)
+            and returns some information about the episode chosen. I used AngularJS for this project, and streamed the entire coding process on my twitch channel. I built
+            it because I always know what show I want to watch, but hate choosing the episode. 
+        </p>
+        <a href="https://github.com/ColeWalker/random-episode-picker" class="btn-main" >View Source</a>
+      </template>
+      <template v-slot:right-panel>
+       <h3>Tech Stack</h3>
+        <ul>
+            <li>AngularJS</li>
+            <li>Typescript</li>
+            <li>Express</li>
+            <li>Node.js</li>
+            <li>Git</li>
+        </ul>
+        <a href="https://agitated-benz-0a03e5.netlify.app/" class="btn-secondary">Live Site</a>
+      </template>
+    </CaseStudy>
     <HireMe />
 
   </Layout>
