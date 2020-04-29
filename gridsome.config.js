@@ -4,7 +4,7 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 const path = require('path')
-
+const remarkNormalizeHeadings = require('remark-normalize-headings');
 function addStyleResource (rule) {
   rule.use('style-resource')
     .loader('style-resources-loader')
@@ -25,8 +25,27 @@ module.exports = {
       options:{
         id: 'UA-132544895-1'
       }
+    },
+    {
+      use: '@gridsome/vue-remark',
+      options: {
+        typeName: 'Post', // Required
+        baseDir: './posts', // Where .md files are located
+        pathPrefix: '/blog', // Add route prefix. Optional
+        template: './src/components/BlogPost.vue', // Optional
+        plugins:[
+          remarkNormalizeHeadings,
+          '@gridsome/remark-prismjs'
+        ]
+      }
     }
   ],
+  transformers:{
+    remark:{
+      plugins:[]
+    }
+  }
+  ,
   chainWebpack (config) {
     // Load variables for all vue-files
     const types = ['vue-modules', 'vue', 'normal-modules', 'normal']

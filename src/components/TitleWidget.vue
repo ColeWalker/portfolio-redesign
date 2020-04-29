@@ -1,8 +1,8 @@
 <template>
   <div class="main-contain">
       <div class="title-wrapper">
-          <h1>{{title}}<span v-if="subTitle">{{subTitle}}</span></h1>
           <g-image src="~/images/technologies.png" alt="JavaScript, React, jQuery, Sass" width="400px"/>
+          <h1>{{title}}<span v-if="subTitle">{{subTitle}}</span></h1>
       </div>
   </div>
 </template>
@@ -34,7 +34,7 @@ export default {
         color: #000000;
       }
     }
-    @media screen and (max-width: 780px){
+    @media screen and (max-width:780px){
       flex-direction:column-reverse;
       img{
         width:100%;
