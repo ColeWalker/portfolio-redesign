@@ -56,15 +56,16 @@
     </AppCard>
      <CaseStudy 
       type="Website"
-      caseStudyTitle="Cole.blog"
+      caseStudyTitle="Random Picker"
     >
       <template v-slot:left-panel>
         <p>
-            My first ever tech blog. For this project, I used React with the Gatsby static site generator
-            to automatically generate posts when supplied with markdown files.
-            This simple setup easily allows CMS implementation, making it highly scalable. 
+           A PWA built with React that I built on stream. The idea of this application is simple, you can create a 
+           list of items that you'd like to randomly pick something from, and when you receive a random item, 
+           it'll remove that item from the list. I am aware that many applications exist that do this, but 
+           I found their UX to be lacking, so I built my own to fit my needs. 
         </p>
-        <a href="https://github.com/ColeWalker/ColeBlogMe" class="btn-main" >View Source</a>
+        <a href="https://github.com/ColeWalker/random-list-picker" class="btn-main" >View Source</a>
       </template>
       <template v-slot:right-panel>
        <h3>Tech Stack</h3>
@@ -73,7 +74,7 @@
             <li>Gatsby</li>
             <li>Git</li>
         </ul>
-        <a href="https://romantic-boyd-a91d0a.netlify.com/" class="btn-secondary">Live Site</a>
+        <a href="https://thirsty-austin-4118aa.netlify.app/" class="btn-secondary">Live Site</a>
       </template>
     </CaseStudy>
     <HireMe />

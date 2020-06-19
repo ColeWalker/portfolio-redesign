@@ -15,6 +15,7 @@
                       <li><a href="https://github.com/ColeWalker">GitHub</a></li>
                       <li><a href="https://dev.to/colewalker">Blog</a></li>
                       <li><a href="https://www.linkedin.com/in/cole-walker-965a13192">LinkedIn</a></li>
+                      <li><a href="https://www.twitch.tv/supcole">Twitch</a></li>
                   </ul>
               </nav>
           </section>
