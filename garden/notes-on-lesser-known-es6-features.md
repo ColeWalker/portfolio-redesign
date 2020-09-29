@@ -2,7 +2,7 @@
 isLive: true
 ---
 
-# September 18 2020
+# Notes on Lesser Known ES6 Features
 
 - When using optional chaining, `undefined?.length > 0` = false, and doesn't throw an exception.
 - Similarly: `undefined?.name === "test"` = false, and doesn't throw an exception.
@@ -47,7 +47,7 @@ function doStuff(x) {
   _ `z += x _= y`is legal`let z = 5 let x = 10 let y = 2 z += x \*= y` \* z=25, x=20, y=2
 
 - `"string".localeCompare('str','en', {})` takes options as the 3rd argument
-  -  options can include:
-  -  `ignorePunctuation: bool` default false
+  - options can include:
+  - `ignorePunctuation: bool` default false
   - `numeric: bool` default false
   - `caseFirst: "upper" | "lower | "false"` Whether upper case or lower case should sort first. Defaults false

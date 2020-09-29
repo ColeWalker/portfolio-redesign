@@ -1,4 +1,4 @@
-# September 25 2020
+# Notes on React useRef and Destructuring variables
 
 - You can alias destructured variables
 
