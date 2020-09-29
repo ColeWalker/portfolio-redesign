@@ -1,5 +1,6 @@
-# September 28 2020
-* In TypeScript, when using an array which contains a bunch of interfaces that extend a base interface, you can use the base class as the array type and it will work.
+# Notes on Typescript Enums and Interfaces
+
+- In TypeScript, when using an array which contains a bunch of interfaces that extend a base interface, you can use the base class as the array type and it will work.
 
 ```ts
 interface Base : {
@@ -14,7 +15,7 @@ interface ExtendedAgain extends Base: {
 	date: Moment
 }
 
-let item1: Base 
+let item1: Base
 let item2: Extended
 let item3: ExtendedAgain
 
@@ -26,7 +27,7 @@ let items: Base[] = [
 
 ```
 
-* In TypeScript, you can access an enumerated type as an array by using Object.entries(enum)
+- In TypeScript, you can access an enumerated type as an array by using Object.entries(enum)
 
 ```ts
 enum Fruit : {

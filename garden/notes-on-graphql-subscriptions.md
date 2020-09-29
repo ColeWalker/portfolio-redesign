@@ -1,4 +1,4 @@
-# September 27 2020
+# Notes on GraphQL Subscriptions
 
 - GraphQL subscriptions are objects containing
   `js subscribe: ()=> asyncIterable resolve: ()=> resolved`
